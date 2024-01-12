@@ -1,0 +1,47 @@
+---
+const PROJECTS_IMAGES = [
+       {
+              src: "/tesla-clone.webp",
+              alt: "Tesla Clone Project with Astro",
+              href: "https://tesla-clone-psi.vercel.app/",
+       },
+       {
+              src: "/volley-website.webp",
+              alt: "Volley Website Project with Next.js and Tailwind CSS",
+              href: "https://volley-website.vercel.app/",
+       },
+       {
+              src: "/chatbot.png",
+              alt: "",
+              href: "https://chatbot-psi.vercel.app/",
+       },
+       {
+              src: "/backoffice.png",
+              alt: "",
+              href: "https://backoffice-psi.vercel.app/",
+       },
+];
+---
+<div
+       class="sm:flex flex-col justify-start itmes-start sm:gap-4 xs:gap-3 max-w-full lg:grid grid-cols-3 lg:gap-4 py-6"
+>
+       {
+       
+              PROJECTS_IMAGES.map(({ href, src, alt }) => (
+                     <a
+                            href={href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="reveal-animation relative overflow-hidden col-span-3 flex items-center justify-center lg:col-span-2"
+                     >
+                            <img
+                                   slot="image"
+                                   class="object-cover w-full h-full rounded-2xl aspect-ratio-1/1"
+                                   src={src}
+                                   draggable="false"
+                                   alt={alt}
+                            />
+                     </a>
+              ))
+       }
+</div>

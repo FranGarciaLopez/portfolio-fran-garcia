@@ -1,0 +1,65 @@
+---
+import ExperienceItem from "./ExperienceItem.astro";
+const EXPERIENCE = [
+       {
+              id: 'tesla-landing-page',
+              title: "Tesla clone with Astro and Tailwind CSS",
+              company: "",
+              location: "",
+              date: "Diciembre 2023",
+              description:
+                     "Como objetivo principal del proyecto, se clonó el sitio web de Tesla utilizando Astro y Tailwind CSS. Las tecnologías utilizadas fueron Astro, Tailwind CSS y JavaScript. El sitio web cuenta con un diseño responsivo, lo que significa que puede ser utilizado en cualquier dispositivo. Finalmente, tiene un menú que se puede abrir haciendo clic en el botón en la esquina superior derecha.",
+              link: "https://github.com/FranGarciaLopez/tesla-clone-website",
+              image: "/tesla-clone.webp",
+              
+       },
+       {
+              id: 'chatbot',
+              title: "Desarrollo de un chat en tiempo real con Node.js, Socket.io y SQL con la web app de TursoDB",
+              company: "",
+              location: "",
+              date: "Noviembre 2023",
+              description:
+                     "El objetivo principal de este proyecto fue desarrollar un chatbot utilizando Node.js y TursoDB. Funciona como un chat en tiempo real donde se pueden abrir 2 instancias y recibir mensajes de la otra parte. Las tecnologías utilizadas incluyen Node.js, TursoDB y JavaScript, con las bibliotecas express y socket.io tanto para el servidor como para el cliente. También se consulta la API random-data para generar usuarios aleatorios. En cuanto a la base de datos, consta de 1 tabla con 3 columnas: id, mensaje y usuario. Finalmente, se empleó .dotenv para almacenar las variables de entorno y HTML/CSS para el diseño del frontend.",
+              link: "",
+              image: "/chatbot.png",
+       },
+       {
+              id: 'volleyball-website',
+              title: "Web de un equipo de Volleyball",
+              company: "",
+              location: "",
+              date: "Noviembre 2023",
+              description:
+                     "El objetivo principal de este proyecto fue desarrollar un sitio web para un club de voleibol con una interfaz amigable y moderna. El sitio web cuenta con un diseño responsivo, lo que significa que puede ser utilizado en cualquier dispositivo. Las tecnologías utilizadas incluyen Next.js 13, HTML, Tailwind CSS y JavaScript.",
+              link: "https://github.com/FranGarciaLopez/volleyball-web-page",
+              image: "/volley-website.webp",
+       },
+       {
+              id: 'final-degree-project',
+              title: "Trabajo de fin de grado por \
+              la Universidad Miguel Hernández de Elche",
+              company: "Universidad Miguel Hernández de Elche",
+              location: "Elche, Alicante",
+              date: "Marzo 2023",
+              description:
+                     "Este TFG desarrolló una aplicación web Dockerizada con PostgreSQL y JSON para soporte multilingüe. La RestAPI en Python con Flask incluyó cifrado de contraseñas y autenticación JWT. Se implementó un CMS con CRUD, pruebas Nightwatch y frontend Bootstrap para crear y constestar cuestionarios en un entorno eficiente.",
+              link: "https://github.com/FranGarciaLopez/quizer/tree/main",
+              image: "/backoffice.png",
+       },
+];
+---
+
+<div
+       class="ml-3 mb-4 bg-linear-to-r from-[#846c4a] to-[#6b5841] rounded-xl flex flex-col justify-start items-start lg:max-w-[740px]"
+>
+       <ol class="relative border-s">
+              {
+                     EXPERIENCE.map((experience) => (
+                            <li class="relative mb-6 sm:mb-0 reveal-animation">
+                                   <ExperienceItem {...experience} />
+                            </li>
+                     ))
+              }
+       </ol>
+</div>

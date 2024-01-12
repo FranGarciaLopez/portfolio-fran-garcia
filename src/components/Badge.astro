@@ -1,0 +1,41 @@
+---
+const BADGE_ELEMENTS = [
+       {
+              title: "Disponible para trabajar",
+       },
+       {
+              title: "Linkedin",
+              url: "https://www.linkedin.com/in/fran-garcia-teleco-umh",
+       },
+       {
+              title: "GitHub",
+              url: "https://github.com/FranGarciaLopez",
+       },
+       {
+              title: "WhatsApp",
+              url: "https://wa.me/34662490512",
+       },
+       {
+              title: "E-mail: frangalo34@gmail.com",
+              url: "mailto:frangalo34@gmail.com",
+       },
+];
+---
+
+<span class="flex space-x-2 py-5">
+       {
+              BADGE_ELEMENTS.map(({ title, url }) => (
+                     <a
+                            class="flex justify-center items-center"
+                            href={url}
+                            target="_blank"
+                            rel="noopener"
+                            referrerpolicy="no-referrer"
+                     >
+                            <span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
+                                   {title}
+                            </span>
+                     </a>
+              ))
+       }
+</span>

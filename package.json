@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-web-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^5.0.4",
+    "@fontsource-variable/comfortaa": "^5.0.18",
+    "@nextui-org/react": "^2.2.9",
+    "astro": "^4.0.7",
+    "framer-motion": "^10.16.16",
+    "tailwindcss": "^3.4.0"
+  }
+}

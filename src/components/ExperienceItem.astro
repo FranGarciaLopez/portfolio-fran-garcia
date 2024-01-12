@@ -1,0 +1,52 @@
+---
+import BriefCase from "./BriefCase.astro";
+export interface Props {
+       id: string;
+       date: string;
+       title: string;
+       description: string;
+       link?: string;
+       company: string;
+       location: string;
+       image: string;
+}
+
+const { id, title, date, description, link, image } = Astro.props;
+---
+
+<span
+       class="absolute flex items-center justify-center w-6 h-6 bg-[#171b4f] rounded-full -start-3 ring-7"
+>
+       <BriefCase class="w-3 h-3 text-[#f9f8f3]" />
+</span>
+<h3
+       class="flex items-center mb-1 ml-6 text-lg font-semibold text-[#242da8] text-pretty"
+>
+       {
+              link && (
+                     <a href={link} target="_blank" rel="noopener noreferrer">
+                            {title}
+                     </a>
+              )
+       }
+       {!link && <span>{title}</span>}
+</h3>
+<time
+       class="block mb-2 ml-6 text-sm font-normal leading-none text-[#c2d7ff]/90 text-pretty"
+       >{date}</time
+>
+<p class="mb-4 ml-6 text-base font-normal text-[#f9f8f3] text-pretty">
+       {description}
+</p>
+<div class="flex items-center mb-6 ml-6 space-x-2"></div>
+<a href=`/${id}`>
+       {
+              image && (
+                     <img
+                            class="object-cover w-[50%] h-[50%] rounded-2xl aspect-ratio-1/1 ml-6 mb-6"
+                            src={image}
+                            alt={title}
+                     />
+              )
+       }
+</a>
