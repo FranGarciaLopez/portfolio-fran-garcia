@@ -1,0 +1,62 @@
+{
+          "NAV_ELEMENTS": {
+                    "NAV_HOME": "Inicio",
+                    "NAV_ABOUT": "Sobre mí",
+                    "NAV_PROJECTS": "Proyectos",
+                    "NAV_CONTACT": "Contacto"
+          },
+          "BADGES": {
+                    "BADGE_WORKING": "Disponible para",
+                    "BADGE_LINKEDIN": "Linkedin",
+                    "BADGE_GITHUB": "GitHub",
+                    "BADGE_WHATSAPP": "WhatsApp",
+                    "BADGE_EMAIL": "E-mail: frangalo34@gmail.com"
+          },
+          "EXPERIENCE_ITEMS": [
+                    {
+                              "id": "tesla-landing-page",
+                              "title": "Pagina web landing clon de Tesla",
+                              "company": "",
+                              "location": "",
+                              "date": "Diciembre 2023",
+                              "description": "Como objetivo principal del proyecto, se clonó el sitio web de Tesla utilizando Astro y Tailwind CSS. Las tecnologías utilizadas fueron Astro, Tailwind CSS y JavaScript. El sitio web cuenta con un diseño responsivo, lo que significa que puede ser utilizado en cualquier dispositivo. Finalmente, tiene un menú que se puede abrir haciendo clic en el botón en la esquina superior derecha.",
+                              "link": "https://github.com/FranGarciaLopez/tesla-clone-website"
+                    },
+                    {
+                              "id": "chatbot",
+                              "title": "Desarrollo de un chat en tiempo real con Node.js, Socket.io y SQL con la web app de TursoDB",
+                              "company": "",
+                              "location": "",
+                              "date": "Noviembre 2023",
+                              "description": "El objetivo principal de este proyecto fue desarrollar un chatbot utilizando Node.js y TursoDB. Funciona como un chat en tiempo real donde se pueden abrir 2 instancias y recibir mensajes de la otra parte. Las tecnologías utilizadas incluyen Node.js, TursoDB y JavaScript, con las bibliotecas express y socket.io tanto para el servidor como para el cliente. También se consulta la API random-data para generar usuarios aleatorios. En cuanto a la base de datos, consta de 1 tabla con 3 columnas: id, mensaje y usuario. Finalmente, se empleó .dotenv para almacenar las variables de entorno y HTML/CSS para el diseño del frontend.",
+                              "link": "https://github.com/FranGarciaLopez/chatbot"
+                    },
+                    {
+                              "id": "volleyball-website",
+                              "title": "Web de un equipo de Volleyball",
+                              "company": "",
+                              "location": "",
+                              "date": "Noviembre 2023",
+                              "description": "El objetivo principal de este proyecto fue desarrollar un sitio web para un club de voleibol con una interfaz amigable y moderna. El sitio web cuenta con un diseño responsivo, lo que significa que puede ser utilizado en cualquier dispositivo. Las tecnologías utilizadas incluyen Next.js 13, HTML, Tailwind CSS y JavaScript.",
+                              "link": "https://github.com/FranGarciaLopez/volleyball-web-page"
+                    },
+                    {
+                              "id": "final-degree-project",
+                              "title": "Trabajo de fin de grado por la Universidad Miguel Hernández de Elche",
+                              "company": "Universidad Miguel Hernández de Elche",
+                              "location": "Elche, Alicante",
+                              "date": "Marzo 2023",
+                              "description": "Este TFG desarrolló una aplicación web Dockerizada con PostgreSQL y JSON para soporte multilingüe. La RestAPI en Python con Flask incluyó cifrado de contraseñas y autenticación JWT. Se implementó un CMS con CRUD, pruebas Nightwatch y frontend Bootstrap para crear y constestar cuestionarios en un entorno eficiente.",
+                              "link": "https://github.com/FranGarciaLopez/quizer/tree/main"
+                    }
+          ],
+          "SEO_TITLE": "Fran García | Desarrollador Web",
+          "SEO_DESCRIPTION": "Desarrollador Web Full Stack, especializado en el desarrollo de aplicaciones web",
+          "INTRO_TITLE": "Hola, soy Fran García",
+          "INTRO_SUBTITLE": "Experiencia en",
+          "INTRO_SUBTITLE_STRONG": "Desarrollo de Aplicaciones",
+          "INTRO_SUBTITLE_AFTER_STRONG": "para mi evolución como desarrollador. De Aspe, Alicante.",
+          "INTRO_DESCRIPTION_SPAN": "Buscando afrontar desafíos",
+          "INTRO_DESCRIPTION_AFTER_SPAN": "en un nuevo proyecto que me brinde la oportunidad de aportar valor a la sociedad.",
+          "PROJECTS_TITLE": "Proyectos personales"
+}

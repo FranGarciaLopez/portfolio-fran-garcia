@@ -1,0 +1,61 @@
+{
+          "NAV_ELEMENTS": {
+                    "NAV_HOME": "Home",
+                    "NAV_ABOUT": "About",
+                    "NAV_PROJECTS": "Projects",
+                    "NAV_CONTACT": "Contact"
+          },
+          "BADGES": {
+                    "BADGE_WORKING": "Available to work",
+                    "BADGE_LINKEDIN": "Linkedin",
+                    "BADGE_GITHUB": "GitHub",
+                    "BADGE_WHATSAPP": "WhatsApp",
+                    "BADGE_EMAIL": "E-mail: frangalo34@gmail.com"
+          },
+          "EXPERIENCE_ITEMS": [
+                    {
+                              "id": "tesla-landing-page",
+                              "title": "Tesla clone with Astro and Tailwind CSS",
+                              "company": "",
+                              "location": "",
+                              "date": "December 2023",
+                              "description": "As the main goal of the project, the Tesla website was cloned using Astro and Tailwind CSS. The technologies used were Astro, Tailwind CSS and JavaScript. The website has a responsive design, which means it can be used on any device. Finally, it has a menu that can be opened by clicking on the button in the upper right corner.",
+                              "link": "https://github.com/FranGarciaLopez/tesla-clone-website"
+                    },
+                    {
+                              "id": "chatbot",
+                              "title": "Real-time chat development with Node.js, Socket.io and SQL with TursoDB web app.",
+                              "company": "",
+                              "location": "",
+                              "date": "November 2023",
+                              "link": "https://github.com/FranGarciaLopez/chatbot"
+                    },
+                    {
+                              "id": "volleyball-website",
+                              "title": "Web de un equipo de Volleyball",
+                              "company": "",
+                              "location": "",
+                              "date": "November 2023",
+                              "description": "The main goal of this project was to develop a website for a volleyball club with a friendly and modern interface. The website has a responsive design, which means it can be used on any device. The technologies used include Next.js 13, HTML, Tailwind CSS and JavaScript.",
+                              "link": "https://github.com/FranGarciaLopez/volleyball-web-page"
+                    },
+                    {
+                              "id": "final-degree-project",
+                              "title": "Trabajo de fin de grado por la Universidad Miguel Hernández de Elche",
+                              "company": "Miguel's Hernández University of Elche",
+                              "location": "Elche, Alicante",
+                              "date": "March 2023",
+                              "description": "This TFG developed a Dockerized web application with PostgreSQL and JSON for multilingual support. The RestAPI in Python with Flask included password encryption and JWT authentication. A CMS was implemented with CRUD, Nightwatch tests and Bootstrap frontend to create and answer questionnaires in an efficient environment.",
+                              "link": "https://github.com/FranGarciaLopez/quizer/tree/main"
+                    }
+          ],
+          "SEO_TITLE": "Fran García | Web Developer",
+          "SEO_DESCRIPTION": "Full Stack Web Developer, specialized in web application development",
+          "INTRO_TITLE": "Hi, I'm Fran García",
+          "INTRO_SUBTITLE": "Experience in",
+          "INTRO_SUBTITLE_STRONG": "Application Development",
+          "INTRO_SUBTITLE_AFTER_STRONG": "for my evolution as a developer. From Aspe, Alicante.",
+          "INTRO_DESCRIPTION_SPAN": "Looking to face challenges",
+          "INTRO_DESCRIPTION_AFTER_SPAN": "in a new project that gives me the opportunity to add value to society.",
+          "PROJECTS_TITLE": "Personal projects"
+}

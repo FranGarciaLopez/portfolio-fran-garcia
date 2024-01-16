@@ -1,10 +1,18 @@
+---
+import { getI18N } from "../i18n/index.ts";
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale  });
+---
+
 <header class="flex justify-center p-4 py-5 w-full xl:w-[1120px]">
        <nav
               class="flex flex-row flex-wrap justify-center lg:justify-end gap-x-4 lg:gap-x-10"
        >
-              <a href="/" class="mb-2 nav-link">Inicio</a>
-              <a href="#experiencia" class="mb-2 nav-link">Experiencia</a>
-              <a href="#sobre-mi" class="mb-2 nav-link">Sobre mi</a>
-              <a href="#contacto" class="mb-2 nav-link">Contacto</a>
+              <a href="#top" class="mb-2 nav-link">{i18n.NAV_ELEMENTS.NAV_HOME}</a>
+              <a href="#experiencia" class="mb-2 nav-link">{i18n.NAV_ELEMENTS.NAV_PROJECTS</a>
+              <a href="#sobre-mi" class="mb-2 nav-link">{i18n.NAV_ELEMENTS.NAV_ABOUT}</a>
+              <a href="#contacto" class="mb-2 nav-link">{i18n.NAV_ELEMENTS.NAV_CONTACT}</a>
+
        </nav>
 </header>

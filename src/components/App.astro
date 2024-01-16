@@ -1,0 +1,57 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Experience from "../components/Experience.astro";
+import SectionContainer from "../components/SectionContainer.astro";
+import Footer from "../components/Footer.astro";
+import Badge from "../components/Badge.astro";
+import Grid from "../components/Grid.astro";
+
+import { getI18N } from "../i18n/index.ts";
+
+const { currentLocale } = Astro
+const i18n = getI18N({ currentLocale  });
+---
+
+<Layout title={i18n.SEO_TITLE}}>
+
+	<main class="px-10">
+		<SectionContainer id="top">
+			<h1
+				class="text-[#262f89] text-xl md:text-2xl lg:text-5xl font-semibold flex justify-start flex-row gap-x-2 pb-6 lg:pb-10"
+			>
+				{ i18n.INTRO_TITLE}
+			</h1>
+			
+
+			<h2 class="text-xl lg:text-2xl opacity-80 max-w-[1400px]">
+				{i18n.INTRO_SUBTITLE}
+				<strong
+					class="bg-gradient-to-b from-[#3744f4] via-[#2a33d8] to-[#3744f4] text-transparent bg-clip-text text-wrap"
+				>
+					{i18n.INTRO_SUBTITLE_STRONG}
+				</strong>
+				{i18n.INTRO_SUBTITLE_AFTER_STRONG}
+			</h2>
+
+			<h2 class="text-2xl opacity-80 max-w-[1400px] pt-2">
+				<span class="text-white opacity-85">
+					{i18n.INTRO_DESCRIPTION_SPAN}
+				</span>
+					{i18n.INTRO_DESCRIPTION_AFTER_SPAN}
+			</h2>
+
+			<Badge />
+		</SectionContainer>
+
+		<SectionContainer id="experiencia">
+			<h2
+				class="mb-3 text-2xl font-semibold felx gap-x-2 text-[#262f89] max-w-[1400px]"
+			>
+				{i18n.PROJECTS_TITLE}
+			</h2>
+			<Experience />
+		</SectionContainer>
+		<Grid />
+		<Footer />
+	</main>
+</Layout>

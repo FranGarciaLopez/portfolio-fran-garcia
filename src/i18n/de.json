@@ -1,0 +1,62 @@
+{
+          "NAV_ELEMENTS": {
+                    "NAV_HOME": "Startseite",
+                    "NAV_ABOUT": "Über mich",
+                    "NAV_PROJECTS": "Projekte",
+                    "NAV_CONTACT": "Kontakt"
+          },
+          "BADGES": {
+                    "BADGE_WORKING": "Zu Arbeit verfügbar",
+                    "BADGE_LINKEDIN": "Linkedin",
+                    "BADGE_GITHUB": "GitHub",
+                    "BADGE_WHATSAPP": "WhatsApp",
+                    "BADGE_EMAIL": "E-mail: frangalo34@gmail.com"
+          },
+          "EXPERIENCE_ITEMS": [
+                    {
+                              "id": "tesla-landing-page",
+                              "title": "Tesla Klon mit Astro und Tailwind CSS",
+                              "company": "",
+                              "location": "",
+                              "date": "Dezember 2023",
+                              "description": "Das Hauptziel des Projekts war es, die Tesla-Website mit Astro und Tailwind CSS zu klonen. Die verwendeten Technologien waren Astro, Tailwind CSS und JavaScript. Die Website ist responsiv, was bedeutet, dass sie auf jedem Gerät verwendet werden kann. Schließlich verfügt es über ein Menü, das geöffnet werden kann, indem Sie auf die Schaltfläche in der oberen rechten Ecke klicken.",
+                              "link": "https://github.com/FranGarciaLopez/tesla-clone-website"
+                    },
+                    {
+                              "id": "chatbot",
+                              "title": "Entwicklung eines Echtzeit-Chats mit Node.js, Socket.io und SQL mit der TursoDB-Web-App",
+                              "company": "",
+                              "location": "",
+                              "date": "November 2023",
+                              "description": "Das Hauptziel dieses Projekts war es, einen Chatbot mit Node.js und TursoDB zu entwickeln. Es funktioniert wie ein Echtzeit-Chat, in dem 2 Instanzen geöffnet und Nachrichten von der anderen Seite empfangen werden können. Die verwendeten Technologien umfassen Node.js, TursoDB und JavaScript, mit den Bibliotheken express und socket.io sowohl für den Server als auch für den Client. Es wird auch die API random-data abgefragt, um zufällige Benutzer zu generieren. In Bezug auf die Datenbank besteht sie aus 1 Tabelle mit 3 Spalten: id, Nachricht und Benutzer. Schließlich wurde .dotenv verwendet, um die Umgebungsvariablen und HTML/CSS für das Frontend-Design zu speichern.",
+                              "link": "https://github.com/FranGarciaLopez/chatbot"
+                    },
+                    {
+                              "id": "volleyball-website",
+                              "title": "Webseite eines Volleyballteams",
+                              "company": "",
+                              "location": "",
+                              "date": "November 2023",
+                              "description": "Das Hauptziel dieses Projekts war es, eine Website für einen Volleyballclub mit einer benutzerfreundlichen und modernen Schnittstelle zu entwickeln. Die Website ist responsiv, was bedeutet, dass sie auf jedem Gerät verwendet werden kann. Die verwendeten Technologien umfassen Next.js 13, HTML, Tailwind CSS und JavaScript.",
+                              "link": "https://github.com/FranGarciaLopez/volleyball-web-page"
+                    },
+                    {
+                              "id": "final-degree-project",
+                              "title": "Abschlussarbeit an der Miguel Hernández Universität von Elche",
+                              "company": "Miguels Hernández Universität Elche",
+                              "location": "Elche, Alicante",
+                              "date": "März 2023",
+                              "description": "Diese Abschlussarbeit entwickelte eine Dockerisierte Webanwendung mit PostgreSQL und JSON für mehrsprachige Unterstützung. Die RestAPI in Python mit Flask enthielt Passwortverschlüsselung und JWT-Authentifizierung. Es wurde ein CMS mit CRUD, Nightwatch-Tests und Bootstrap-Frontend implementiert, um Fragebögen in einer effizienten Umgebung zu erstellen und zu beantworten.",
+                              "link": "https://github.com/FranGarciaLopez/quizer/tree/main"
+                    }
+          ],
+          "SEO_TITLE":"Fran García | Web Entwickler",
+          "SEO_DESCRIPTION":"Full Stack Web Entwickler, spezialisiert auf die Entwicklung von Webanwendungen",
+          "INTRO_TITLE":"Hallo, ich heiße Fran García",
+          "INTRO_SUBTITLE":"Erfahrung in",
+          "INTRO_SUBTITLE_STRONG":"Anwendungsentwicklung",
+          "INTRO_SUBTITLE_AFTER_STRONG":"für meine Entwicklung als Entwickler. In Aspe geboren.",
+          "INTRO_DESCRIPTION_SPAN":"Auf der Suche nach Herausforderungen",
+          "INTRO_DESCRIPTION_AFTER_SPAN":"in einem neuen Projekt, das mir die Möglichkeit gibt, der Gesellschaft einen Mehrwert zu bieten.",
+          "PROJECTS_TITLE":"Persönliche Projekte"
+}
